@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+#header,#header1, #header2, #header3, #header4, #footer {
+    position: relative;
+    width: 100%;
+}
+
+ #content {
+    width: 100%;
+}
+
+.header {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #F9F9F9;
+    color: #000000;
+    display: -webkit-box !important;
+    display: box !important;
+}
+
+.header .back {
+    display: block;
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+}
+
+
+.header .h1 {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+}
+
+.header .zimu {
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 0.83rem;
+}
+
+.tabHead {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    overflow: hidden;
+}
+
+.tabHead span {
+    display: block;
+    width: 50%;
+    float: left;
+    position: relative;
+    z-index: 2;
+    color: #666666;
+    text-align: center;
+    font-size: .85rem;
+    line-height: .85rem;
+    padding: .55rem 0;
+}
+
+.tabHead .border {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 5;
+    width: 50%;
+    height: 4px;
+    background: #04BE02;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.tabHead .active {
+    color: #04BE02;
+}
+

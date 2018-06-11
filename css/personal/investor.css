@@ -1,0 +1,41 @@
+.investor {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.investor .investor-info {
+    text-align: center;
+    flex: 1;
+}
+
+.investor .investor-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.investor .inverstor-msg {
+    flex: 2;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.investor .inerstor-phone {
+    flex: 1;
+    font-size: 13px;
+}
+
+.main .weui-cells__title {
+    font-size: 16px;
+    color: #fff;
+    background: #999;
+}
+
+.main .weui-cell__bd p {
+    font-size: 14px;
+}

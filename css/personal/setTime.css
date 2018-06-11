@@ -1,0 +1,70 @@
+.content-time {
+    margin-top: 20px;
+}
+
+.content-time p {
+    text-align: center;
+}
+
+.time-list {
+    padding: 5px 10px;
+}
+
+.time-list .times {
+    float: left;
+    list-style: none;
+    width: 14%;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-right: -1px;
+    background: #e5e5e5;
+    color: #101010;
+}
+
+.time-main .main-option {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.main-option p {
+    flex: 1;
+}
+
+.main-time {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #666F80;
+    overflow: hidden;
+}
+
+.main-time .main-list {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    width: 22%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.main-time .main-list:nth-child(4n) {
+    margin-right: 0;
+}
+
+.pick {
+    background: #88B9F2;
+    color: #fff;
+}
+
+.checked {
+    background: #FF4081;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 20px 0;
+}

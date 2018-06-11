@@ -1,0 +1,131 @@
+.tab-content {
+    margin-top: 1em;
+}
+
+.tab-content .content-option {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.content-option .option-list {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding: .25rem 0;
+    position: relative;
+}
+
+.content-option .option-list:nth-last-child(1) {
+    border-right-color: transparent;
+}
+
+.content-option .option-list i {
+    position: relative;
+    margin-left: 1px;
+}
+
+.content-option .option-list i::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #000;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+.content-option .option-list i::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #000;
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+}
+
+.weui-media-box_appmsg .weui-media-box__bd.flex_t {
+    flex: 2;
+}
+
+.weui-media-box__desc {
+    line-height: 1.4;
+}
+
+.panel {
+    position: relative;
+}
+
+.icon-youjiantou {
+    position: absolute;
+    right: -14px;
+    top: 14px;
+}
+
+.content {
+    background: #fff;
+}
+
+.weui-media-box__bd {
+    position: relative;
+}
+
+.person {
+    display: block;
+    margin-top: .556rem;
+    padding: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.person .person-image {
+    flex: 1;
+}
+
+.person .person-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.person .person-info {
+    flex: 3;
+    font-size: 14px;
+    color: #333;
+}
+
+.person-info .tip {
+    background: #0bb20c;
+    color: #fff;
+    border-radius: 2%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.main .main-list {
+    display: inline-block;
+    width: 24%;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: #333;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.main-list .iconfont {
+    font-size: 34px;
+}
