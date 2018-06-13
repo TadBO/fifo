@@ -18,13 +18,20 @@ angular.module('app.routers', [])
             }
 		}).state('main.member',{
 			url: '/member',
-			templateUrl: 'tpl/member/member.html?v=20180302'
+			templateUrl: 'tpl/member/member.html?v=20180302',
+			controller: 'MemberCtr'
 
 		}).state('main.warehouse',{
 			url: '/warehouse',
-            templateUrl: 'tpl/warehouse/warehouse.html?v=20180302'
+            templateUrl: 'tpl/warehouse/warehouse.html?v=20180302',
+			controller: 'WarehouseCtr'
 		}).state('main.center', {
 			url: '/center',
-            templateUrl: 'tpl/center/center.html?v=20180302'
+            templateUrl: 'tpl/center/center.html?v=20180302',
+			controller: 'CenterCtr'
+		}).state('main.appointment', {
+			url: '/appointment',
+			templateUrl: 'tpl/appointment/appointment.html?v=20180613',
+			controller: 'AppointmentCtr'
 		});
 	});
